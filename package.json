@@ -1,0 +1,21 @@
+{
+  "name": "apollo-fetch-playground",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "hops start",
+    "build": "hops build",
+    "serve": "hops serve"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "cross-fetch": "^3.0.6",
+    "graphql": "^15.5.0",
+    "hops": "13.3.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet-async": "^1.0.7",
+    "react-router-dom": "^5.2.0"
+  }
+}
